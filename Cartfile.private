@@ -1,2 +1,3 @@
 github "ReactiveX/RxSwift" ~> 3.0
-git "git@github.gcxi.de:grandcentrix/GCXMulticastDNSKit.git" ~> 1.0.0
+github "grandcentrix/GCXMulticastDNSKit.git" ~> 1.0
+
