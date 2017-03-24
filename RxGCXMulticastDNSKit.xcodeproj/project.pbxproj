@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FD9D51D1E857C4600612C9C /* GCXMulticastDNSKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 687E68CE1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4FD9D51E1E857C4600612C9C /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68CB92891E815CCD00A482A8 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4FD9D51F1E857C4600612C9C /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 687E68C91E6EB78E00A482A8 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4FD9D5201E857C4600612C9C /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 687E68CA1E6EB78E00A482A8 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		687E68B81E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68AE1E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework */; };
 		687E68BD1E6EB65200A482A8 /* RxGCXMulticastDNSKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E68BC1E6EB65200A482A8 /* RxGCXMulticastDNSKitTests.swift */; };
 		687E68BF1E6EB65200A482A8 /* RxGCXMulticastDNSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 687E68B11E6EB65200A482A8 /* RxGCXMulticastDNSKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +33,22 @@
 			remoteInfo = RxGCXMulticastDNSKit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FD9D5121E857C1D00612C9C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4FD9D51D1E857C4600612C9C /* GCXMulticastDNSKit.framework in CopyFiles */,
+				4FD9D51E1E857C4600612C9C /* RxTest.framework in CopyFiles */,
+				4FD9D51F1E857C4600612C9C /* RxCocoa.framework in CopyFiles */,
+				4FD9D5201E857C4600612C9C /* RxSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		687E68AE1E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxGCXMulticastDNSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +178,7 @@
 				687E68B31E6EB65200A482A8 /* Sources */,
 				687E68B41E6EB65200A482A8 /* Frameworks */,
 				687E68B51E6EB65200A482A8 /* Resources */,
+				4FD9D5121E857C1D00612C9C /* CopyFiles */,
 			);
 			buildRules = (
 			);
