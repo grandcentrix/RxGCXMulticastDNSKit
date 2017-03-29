@@ -18,10 +18,7 @@
 
 import Foundation
 import GCXMulticastDNSKit
-
-#if !RX_NO_MODULE
-    import RxSwift
-#endif
+import RxSwift
 
 public enum DiscoveryResult {
     case serviceFound(DiscoveryService)
