@@ -46,7 +46,7 @@ class RxGCXMulticastDNSKitTests: XCTestCase {
         let expectation = self.expectation(description: "called")
         Discovery.rx.service(configurations: [ configuration ] ).subscribe(onNext: { result in
             expectation.fulfill()
-        }).addDisposableTo(disposeBag!)
+        }).disposed(by: disposeBag!)
         
         waitForExpectations(timeout: 10, handler: nil)
     }
