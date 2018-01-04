@@ -1,2 +1,2 @@
-github "ReactiveX/RxSwift" "3.3.1"
-github "grandcentrix/GCXMulticastDNSKit" "v1.0.2"
+github "ReactiveX/RxSwift" "4.1.0"
+github "grandcentrix/GCXMulticastDNSKit" "1.2.0"

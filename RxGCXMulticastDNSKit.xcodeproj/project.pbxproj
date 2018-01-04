@@ -13,7 +13,6 @@
 		4FD9D5201E857C4600612C9C /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 687E68CA1E6EB78E00A482A8 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		687E68B81E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68AE1E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework */; };
 		687E68BD1E6EB65200A482A8 /* RxGCXMulticastDNSKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E68BC1E6EB65200A482A8 /* RxGCXMulticastDNSKitTests.swift */; };
-		687E68BF1E6EB65200A482A8 /* RxGCXMulticastDNSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 687E68B11E6EB65200A482A8 /* RxGCXMulticastDNSKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		687E68CB1E6EB78E00A482A8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68C91E6EB78E00A482A8 /* RxCocoa.framework */; };
 		687E68CC1E6EB78E00A482A8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68CA1E6EB78E00A482A8 /* RxSwift.framework */; };
 		687E68CF1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68CE1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework */; };
@@ -52,7 +51,6 @@
 
 /* Begin PBXFileReference section */
 		687E68AE1E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxGCXMulticastDNSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		687E68B11E6EB65200A482A8 /* RxGCXMulticastDNSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxGCXMulticastDNSKit.h; sourceTree = "<group>"; };
 		687E68B21E6EB65200A482A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		687E68B71E6EB65200A482A8 /* RxGCXMulticastDNSKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxGCXMulticastDNSKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687E68BC1E6EB65200A482A8 /* RxGCXMulticastDNSKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxGCXMulticastDNSKitTests.swift; sourceTree = "<group>"; };
@@ -112,9 +110,8 @@
 		687E68B01E6EB65200A482A8 /* RxGCXMulticastDNSKit */ = {
 			isa = PBXGroup;
 			children = (
-				687E68B11E6EB65200A482A8 /* RxGCXMulticastDNSKit.h */,
-				687E68B21E6EB65200A482A8 /* Info.plist */,
 				687E68D01E6EBB9600A482A8 /* Dicovery+Rx.swift */,
+				687E68B21E6EB65200A482A8 /* Info.plist */,
 			);
 			path = RxGCXMulticastDNSKit;
 			sourceTree = "<group>";
@@ -146,7 +143,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687E68BF1E6EB65200A482A8 /* RxGCXMulticastDNSKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,16 +193,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "grandcentrix GmbH";
 				TargetAttributes = {
 					687E68AD1E6EB65200A482A8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					687E68B61E6EB65200A482A8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -283,7 +280,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -291,7 +290,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -336,7 +339,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -344,7 +349,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -394,7 +403,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -418,7 +428,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxGCXMulticastDNSKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -434,7 +445,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxGCXMulticastDNSKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -450,7 +462,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.grandcentrix.RxGCXMulticastDNSKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
