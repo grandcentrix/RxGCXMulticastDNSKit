@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "9.0"
   spec.source = { git: "https://github.com/grandcentrix/RxGCXMulticastDNSKit.git", tag: "v#{spec.version}"}
   spec.source_files = "RxGCXMulticastDNSKit/**/*.{swift}"
-  spec.dependency  "GCXMulticastDNSKit", "~> 1.2"
-  spec.dependency  "RxSwift", "~> 4.1"
+  spec.dependency  "GCXMulticastDNSKit", "~> 1.2.1"
+  spec.dependency  "RxSwift", "~> 4.1.2"
 end
