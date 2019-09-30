@@ -11,6 +11,9 @@
 		4FD9D51E1E857C4600612C9C /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68CB92891E815CCD00A482A8 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4FD9D51F1E857C4600612C9C /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 687E68C91E6EB78E00A482A8 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4FD9D5201E857C4600612C9C /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 687E68CA1E6EB78E00A482A8 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		525E689923420520003130B7 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525E689823420520003130B7 /* RxRelay.framework */; };
+		525E689A23420538003130B7 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525E689823420520003130B7 /* RxRelay.framework */; };
+		525E689C2342057F003130B7 /* RxRelay.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 525E689B2342057F003130B7 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		687E68B81E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68AE1E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework */; };
 		687E68BD1E6EB65200A482A8 /* RxGCXMulticastDNSKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E68BC1E6EB65200A482A8 /* RxGCXMulticastDNSKitTests.swift */; };
 		687E68CB1E6EB78E00A482A8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68C91E6EB78E00A482A8 /* RxCocoa.framework */; };
@@ -43,6 +46,7 @@
 				4FD9D51D1E857C4600612C9C /* GCXMulticastDNSKit.framework in CopyFiles */,
 				4FD9D51E1E857C4600612C9C /* RxTest.framework in CopyFiles */,
 				4FD9D51F1E857C4600612C9C /* RxCocoa.framework in CopyFiles */,
+				525E689C2342057F003130B7 /* RxRelay.framework in CopyFiles */,
 				4FD9D5201E857C4600612C9C /* RxSwift.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		525E689823420520003130B7 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		525E689B2342057F003130B7 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		5286171B225B7C5D006877FA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		687E68AE1E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxGCXMulticastDNSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		687E68B21E6EB65200A482A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +76,7 @@
 			files = (
 				687E68CB1E6EB78E00A482A8 /* RxCocoa.framework in Frameworks */,
 				687E68CC1E6EB78E00A482A8 /* RxSwift.framework in Frameworks */,
+				525E689A23420538003130B7 /* RxRelay.framework in Frameworks */,
 				687E68CF1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525E689923420520003130B7 /* RxRelay.framework in Frameworks */,
 				687E68B81E6EB65200A482A8 /* RxGCXMulticastDNSKit.framework in Frameworks */,
 				68DD1A1F1E70581B00A482A8 /* GCXMulticastDNSKit.framework in Frameworks */,
 				68DD1A201E70581E00A482A8 /* RxSwift.framework in Frameworks */,
@@ -92,6 +100,7 @@
 		687E68A41E6EB65200A482A8 = {
 			isa = PBXGroup;
 			children = (
+				525E689B2342057F003130B7 /* RxRelay.framework */,
 				687E68B01E6EB65200A482A8 /* RxGCXMulticastDNSKit */,
 				687E68BB1E6EB65200A482A8 /* RxGCXMulticastDNSKitTests */,
 				687E68AF1E6EB65200A482A8 /* Products */,
@@ -130,6 +139,7 @@
 		687E68C81E6EB78E00A482A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				525E689823420520003130B7 /* RxRelay.framework */,
 				687E68CE1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework */,
 				68CB92891E815CCD00A482A8 /* RxTest.framework */,
 				687E68C91E6EB78E00A482A8 /* RxCocoa.framework */,
