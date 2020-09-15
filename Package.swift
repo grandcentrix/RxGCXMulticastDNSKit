@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .target(
             name: "RxGCXMulticastDNSKit",
-            dependencies: [RxSwift, GCXMulticastDNSKit]),
+            dependencies: []),
         .testTarget(
             name: "RxGCXMulticastDNSKitTests",
             dependencies: ["RxGCXMulticastDNSKit"])
