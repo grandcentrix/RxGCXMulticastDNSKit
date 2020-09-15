@@ -21,10 +21,12 @@ let package = Package(
     targets: [
         .target(
             name: "RxGCXMulticastDNSKit",
-            dependencies: []),
+            dependencies: [],
+            path: "RxGCXMulticastDNSKit"),
         .testTarget(
             name: "RxGCXMulticastDNSKitTests",
-            dependencies: ["RxGCXMulticastDNSKit"])
+            dependencies: ["RxGCXMulticastDNSKit"],
+            path: "RxGCXMulticastDNSKitTests"),
     ],
     swiftLanguageVersions: [.v5]
 )
