@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "RxGCXMulticastDNSKit"
-  spec.version = "1.3.1"
+  spec.version = "1.3.2"
   spec.summary = "RxSwift wrapper for GCXMulticastDNSKit."
   spec.homepage = "https://github.com/grandcentrix/RxGCXMulticastDNSKit"
   spec.license =  { :type => 'Apache License, Version 2.0',  :file => 'LICENSE.txt' }
