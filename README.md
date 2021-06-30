@@ -1,11 +1,12 @@
 # RxGCXMulticastDNSKit
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![Release](https://img.shields.io/github/release/grandcentrix/RxGCXMulticastDNSKit.svg) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Cocoapods compatible](https://img.shields.io/cocoapods/v/RxGCXMulticastDNSKit.svg)](https://cocoapods.org/)
+[![badge-swiftpm]][swiftpm]
 
 This is a simple RxSwift wrapper for GCXMulticastDNSKit.
 
 ## Requirements
 
-[RxSwift](https://github.com/ReactiveX/RxSwift) @ v5.x [GCXMulticastDNSKit](https://github.com/grandcentrix/GCXMulticastDNSKit) @ v1.3.1
+[RxSwift](https://github.com/ReactiveX/RxSwift) @ v6.x [GCXMulticastDNSKit](https://github.com/grandcentrix/GCXMulticastDNSKit) @ v1.3.1
 
 ## Usage
 ```swift
@@ -39,6 +40,14 @@ Discovery.rx.service(configurations: [ configuration ] ).subscribe(onNext: { res
 ```
 
 ## Installation
+
+### Swift Package Manager
+
+Add the following entry to your package's dependencies:
+
+```
+.Package(url: "https://github.com/grandcentrix/RxGCXMulticastDNSKit.git", .upToNextMajor(from: "1.4.0")))
+```
 
 ### Carthage
 ```ruby
