@@ -19,7 +19,7 @@
 		687E68CB1E6EB78E00A482A8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68C91E6EB78E00A482A8 /* RxCocoa.framework */; };
 		687E68CC1E6EB78E00A482A8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68CA1E6EB78E00A482A8 /* RxSwift.framework */; };
 		687E68CF1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68CE1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework */; };
-		687E68D11E6EBB9600A482A8 /* Dicovery+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E68D01E6EBB9600A482A8 /* Dicovery+Rx.swift */; };
+		687E68D11E6EBB9600A482A8 /* Discovery+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E68D01E6EBB9600A482A8 /* Discovery+Rx.swift */; };
 		68CB928A1E815CCD00A482A8 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CB92891E815CCD00A482A8 /* RxTest.framework */; };
 		68DD1A1F1E70581B00A482A8 /* GCXMulticastDNSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68CE1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework */; };
 		68DD1A201E70581E00A482A8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687E68CA1E6EB78E00A482A8 /* RxSwift.framework */; };
@@ -65,7 +65,7 @@
 		687E68C91E6EB78E00A482A8 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		687E68CA1E6EB78E00A482A8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		687E68CE1E6EBB3D00A482A8 /* GCXMulticastDNSKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCXMulticastDNSKit.framework; path = Carthage/Build/iOS/GCXMulticastDNSKit.framework; sourceTree = "<group>"; };
-		687E68D01E6EBB9600A482A8 /* Dicovery+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dicovery+Rx.swift"; sourceTree = "<group>"; };
+		687E68D01E6EBB9600A482A8 /* Discovery+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Discovery+Rx.swift"; sourceTree = "<group>"; };
 		68CB92891E815CCD00A482A8 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				5286171B225B7C5D006877FA /* README.md */,
-				687E68D01E6EBB9600A482A8 /* Dicovery+Rx.swift */,
+				687E68D01E6EBB9600A482A8 /* Discovery+Rx.swift */,
 				687E68B21E6EB65200A482A8 /* Info.plist */,
 			);
 			path = RxGCXMulticastDNSKit;
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				687E68D11E6EBB9600A482A8 /* Dicovery+Rx.swift in Sources */,
+				687E68D11E6EBB9600A482A8 /* Discovery+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

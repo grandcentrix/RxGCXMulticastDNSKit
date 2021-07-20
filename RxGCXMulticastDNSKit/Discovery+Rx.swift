@@ -1,5 +1,5 @@
 //
-//  Dicovery+Rx.swift
+//  Discovery+Rx.swift
 //  RxGCXMulticastDNSKit
 //
 //  Copyright 2017 grandcentrix GmbH
@@ -27,8 +27,8 @@ public enum DiscoveryResult {
 }
 
 extension Reactive where Base: Discovery {
-    
-    
+
+
     /// Creates a new observable that emits services with the passed configurtions.
     /// The observable never calles onCompleted or onError. To stop searching you have to
     /// dispose the observable.
@@ -44,9 +44,9 @@ extension Reactive where Base: Discovery {
             }, serviceRemovedHandler: { (service) in
                 observer.onNext(.serviceRemoved(service))
             })
-            
+
             discovery?.startDiscovery()
-            
+
             return Disposables.create {
                 discovery?.stopDiscovery()
             }
