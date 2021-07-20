@@ -46,7 +46,7 @@ Discovery.rx.service(configurations: [ configuration ] ).subscribe(onNext: { res
 Add the following entry to your package's dependencies:
 
 ```
-.Package(url: "https://github.com/grandcentrix/RxGCXMulticastDNSKit.git", .upToNextMajor(from: "1.4.0")))
+.Package(url: "https://github.com/grandcentrix/RxGCXMulticastDNSKit.git", .upToNextMajor(from: "1.4.1")))
 ```
 
 ### Carthage
