@@ -6,7 +6,7 @@ This is a simple RxSwift wrapper for GCXMulticastDNSKit.
 
 ## Requirements
 
-[RxSwift](https://github.com/ReactiveX/RxSwift) @ v6.x [GCXMulticastDNSKit](https://github.com/grandcentrix/GCXMulticastDNSKit) @ v1.3.1
+[RxSwift](https://github.com/ReactiveX/RxSwift) @ v6.x [GCXMulticastDNSKit](https://github.com/grandcentrix/GCXMulticastDNSKit) @ v1.4.0
 
 ## Usage
 ```swift
@@ -46,7 +46,7 @@ Discovery.rx.service(configurations: [ configuration ] ).subscribe(onNext: { res
 Add the following entry to your package's dependencies:
 
 ```
-.Package(url: "https://github.com/grandcentrix/RxGCXMulticastDNSKit.git", .upToNextMajor(from: "1.4.0")))
+.Package(url: "https://github.com/grandcentrix/RxGCXMulticastDNSKit.git", .upToNextMajor(from: "1.5.0")))
 ```
 
 ### Carthage
