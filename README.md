@@ -6,7 +6,7 @@ This is a simple RxSwift wrapper for GCXMulticastDNSKit.
 
 ## Requirements
 
-[RxSwift](https://github.com/ReactiveX/RxSwift) @ v6.x [GCXMulticastDNSKit](https://github.com/grandcentrix/GCXMulticastDNSKit) @ v1.3.1
+[RxSwift](https://github.com/ReactiveX/RxSwift) @ v6.x [GCXMulticastDNSKit](https://github.com/grandcentrix/GCXMulticastDNSKit) @ v1.4.0
 
 ## Usage
 ```swift

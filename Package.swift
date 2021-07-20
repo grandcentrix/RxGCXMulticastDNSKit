@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
-        .package(url: "https://github.com/grandcentrix/GCXMulticastDNSKit.git", .upToNextMinor(from: "1.3.1"))
+        .package(url: "https://github.com/grandcentrix/GCXMulticastDNSKit.git", .upToNextMinor(from: "1.4.0"))
     ],
     targets: [
         .target(
